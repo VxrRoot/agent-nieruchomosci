@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+import flat from "../../public/flat.webp";
+import AstroContainer from "../components/AstroContainer.astro";
+---
+
+<section class="relative min-h-[40rem] w-full mb-32">
+  <div
+    class="bg-[url(/real-estate.webp)] bg-center h-full bg-cover inset-0 py-20"
+  >
+    <AstroContainer>
+      <div class="bg-slate-100 p-10 lg:p-20 flex flex-col lg:flex-row gap-8">
+        <div class="basis-1/2">
+          <h2 class="text-4xl xl:text-5xl font-semibold">
+            Aby pomóc Ci spełnić marzenia o idealnej nieruchomości
+          </h2>
+          <p class="mt-10">
+            Witaj w miejscu, gdzie Twoje marzenia o własnym domu stają się
+            rzeczywistością. Niezależnie od tego, czy szukasz urokliwego domku
+            na wsi, eleganckiego mieszkania w sercu miasta, czy przestronnej
+            rezydencji dla swojej rodziny, jestem tutaj, aby Ci pomóc. Z pasją i
+            zaangażowaniem wspieram Cię na każdym etapie procesu zakupu
+            nieruchomości, zapewniając profesjonalne doradztwo i indywidualne
+            podejście. Ze mną Twoje marzenia są w zasięgu ręki.
+          </p>
+        </div>
+        <div class="basis-1/2">
+          <Image src={flat} alt="Mieszkanie" loading="lazy" />
+        </div>
+      </div>
+    </AstroContainer>
+  </div>
+</section>

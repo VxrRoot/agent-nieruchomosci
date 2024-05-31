@@ -25,7 +25,12 @@ import AstroContainer from "../components/AstroContainer.astro";
         </p>
       </motion.div>
       <div class="basis-1/2">
-        <Image src={heroImg} alt="Zdjęcie agenta" class="rounded-md" />
+        <Image
+          src={heroImg}
+          alt="Zdjęcie agenta"
+          class="rounded-md"
+          loading="lazy"
+        />
       </div>
     </div>
   </AstroContainer>

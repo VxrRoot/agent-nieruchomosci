@@ -2,6 +2,7 @@ import instagram from "../../public/icons/instagram.svg";
 import logo from "../../public/logo.webp";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Image } from "astro:assets";
 
 const navMotion = {
   visible: {
@@ -100,7 +101,7 @@ export default function Nav() {
         href="/"
         className="text-lg font-bold flex justify-center items-center"
       >
-        <img src={logo.src} alt="logo" />
+        <img src={logo.src} alt="logo" className="w-52" loading="lazy" />
       </a>
 
       {/* Nav Items animating in  */}
