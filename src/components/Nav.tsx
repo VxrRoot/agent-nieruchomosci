@@ -99,9 +99,9 @@ export default function Nav() {
 
       <a
         href="/"
-        className="text-lg font-bold flex justify-center items-center"
+        className="text-lg font-bold flex justify-center items-center min-w-56"
       >
-        <img src={logo.src} alt="logo" className="w-52" loading="lazy" />
+        <img src={logo.src} alt="logo" className="w-52 h-auto" loading="lazy" />
       </a>
 
       {/* Nav Items animating in  */}
