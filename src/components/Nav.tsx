@@ -2,7 +2,6 @@ import instagram from "../../public/icons/instagram.svg";
 import logo from "../../public/logo.webp";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Image } from "astro:assets";
 
 const navMotion = {
   visible: {
@@ -62,7 +61,7 @@ const NavLinks = ({
 export default function Nav() {
   const [toggled, setToggled] = useState(false);
   return (
-    <nav className="relative px-4 mb-24 flex  items-center justify-between pb-6 pt-6 font-medium  xl:grid grid-cols-3 max-w-[1440px] mx-auto">
+    <nav className="relative px-4 mb-24 flex items-center justify-between pb-6 pt-6 font-medium xl:grid grid-cols-3 max-w-[1440px] mx-auto">
       <svg
         className="absolute bottom-0 left-1/2 -translate-x-1/2  "
         width="250"
@@ -93,7 +92,7 @@ export default function Nav() {
           className="items-center gap-12 xl:flex"
           target="_blank"
         >
-          <img src={instagram.src} alt="Youtube Channel" className="w-8" />
+          <img src={instagram.src} alt="Instagram" className="w-8" />
         </motion.a>
       </motion.div>
 
@@ -101,7 +100,12 @@ export default function Nav() {
         href="/"
         className="text-lg font-bold flex justify-center items-center min-w-56"
       >
-        <img src={logo.src} alt="logo" className="w-52 h-auto" loading="lazy" />
+        <img
+          src={logo.src}
+          alt="logo"
+          className="w-52 h-auto"
+          loading="eager"
+        />
       </a>
 
       {/* Nav Items animating in  */}
