@@ -8,21 +8,21 @@ const CARDS = [
     name: "Karol",
     designation: "",
     content:
-      "Współpraca z Patrycją była prawdziwą przyjemnością. Jej profesjonalizm, wiedza o rynku nieruchomości oraz zaangażowanie w każdą część procesu sprzedaży były imponujące. Dzięki jej poradom udało nam się sprzedać nasz dom szybko i za satysfakcjonującą cenę. Zawsze dostępna, zawsze pomocna - zdecydowanie polecam!🙏",
+      "Współpraca z Dagmara była prawdziwą przyjemnością. Jej profesjonalizm, wiedza o rynku nieruchomości oraz zaangażowanie w każdą część procesu sprzedaży były imponujące. Dzięki jej poradom udało nam się sprzedać nasz dom szybko i za satysfakcjonującą cenę. Zawsze dostępna, zawsze pomocna - zdecydowanie polecam!🙏",
   },
   {
     id: 1,
     name: "Klaudia",
     designation: "",
     content:
-      "Patrycja okazała się niezastąpiona w poszukiwaniu naszego nowego mieszkania. Jej cierpliwość i wyrozumiałość dla naszych wymagań były godne podziwu. Zawsze miała na uwadze nasze potrzeby i budżet, a dzięki jej wiedzy udało nam się znaleźć idealne miejsce. Współpraca była bezproblemowa, a jej profesjonalizm sprawił, że cały proces zakupu był mniej stresujący. Gorąco polecamy!",
+      "Dagmara okazała się niezastąpiona w poszukiwaniu naszego nowego mieszkania. Jej cierpliwość i wyrozumiałość dla naszych wymagań były godne podziwu. Zawsze miała na uwadze nasze potrzeby i budżet, a dzięki jej wiedzy udało nam się znaleźć idealne miejsce. Współpraca była bezproblemowa, a jej profesjonalizm sprawił, że cały proces zakupu był mniej stresujący. Gorąco polecamy!",
   },
   {
     id: 2,
     name: "Marek",
     designation: "",
     content:
-      "Patrycja to prawdziwa ekspertka w swojej dziedzinie. Jej zaangażowanie i dbałość o szczegóły zrobiły na nas ogromne wrażenie. Pomogła nam nie tylko w sprzedaży starego mieszkania, ale również w znalezieniu nowego domu, który spełnia wszystkie nasze oczekiwania. Była zawsze dostępna, odpowiadała na wszystkie nasze pytania i rozwiewała wszelkie wątpliwości. Współpraca z nią to była czysta przyjemność!",
+      "Dagmara to prawdziwa ekspertka w swojej dziedzinie. Jej zaangażowanie i dbałość o szczegóły zrobiły na nas ogromne wrażenie. Pomogła nam nie tylko w sprzedaży starego mieszkania, ale również w znalezieniu nowego domu, który spełnia wszystkie nasze oczekiwania. Była zawsze dostępna, odpowiadała na wszystkie nasze pytania i rozwiewała wszelkie wątpliwości. Współpraca z nią to była czysta przyjemność!",
   },
 ];
 ---
@@ -41,7 +41,7 @@ const CARDS = [
         </p>
       </div>
       <div class="basis-1/2">
-        <OpinionStack items={CARDS} client:load />
+        <OpinionStack items={CARDS} client:visible />
       </div>
     </div>
   </AstroContainer>

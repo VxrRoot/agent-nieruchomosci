@@ -49,12 +49,13 @@ const NavLinks = ({
       </motion.a>
     ))}
 
-    <motion.button
+    <motion.a
       variants={isMobile ? itemMotion : itemMotionDesktop}
       className="bg-black text-white px-4 py-2 text-center rounded-md flex whitespace-nowrap"
+      href="#kontakt"
     >
       Skontaktuj się
-    </motion.button>
+    </motion.a>
   </div>
 );
 
@@ -88,7 +89,8 @@ export default function Nav() {
         className="flex gap-12"
       >
         <motion.a
-          href="https://www.instagram.com/blondynkanakwadracie_/"
+          // href="https://www.instagram.com/blondynkanakwadracie_/"
+          href="https://www.instagram.com/parzych_nieruchomosci/"
           className="items-center gap-12 xl:flex"
           target="_blank"
         >
@@ -98,14 +100,15 @@ export default function Nav() {
 
       <a
         href="/"
-        className="text-lg font-bold flex justify-center items-center min-w-56"
+        className="text-lg font-extrabold flex justify-center items-center min-w-56"
       >
-        <img
+        {/* <img
           src={logo.src}
           alt="logo"
           className="w-52 h-auto"
           loading="eager"
-        />
+        /> */}
+        <span className="text-2xl">Parzych Nieruchomości</span>
       </a>
 
       {/* Nav Items animating in  */}
