@@ -108,7 +108,7 @@ export default function Nav() {
           className="w-52 h-auto"
           loading="eager"
         /> */}
-        <span className="text-2xl">Parzych Nieruchomości</span>
+        <span className="text-xl lg:text-2xl">Parzych Nieruchomości</span>
       </a>
 
       {/* Nav Items animating in  */}
