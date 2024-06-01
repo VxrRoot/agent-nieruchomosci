@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="pt-10 flex flex-col lg:flex-row">
+    <div className="pt-10 flex flex-col lg:flex-row gap-8">
       <div className="basis-1/2">
         <p className="lg:pr-14">
           Jeśli masz jakiekolwiek pytania dotyczące kupna, sprzedaży czy wynajmu
