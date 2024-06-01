@@ -2,11 +2,13 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="py-10 flex flex-col lg:flex-row">
+    <div className="pt-10 flex flex-col lg:flex-row">
       <div className="basis-1/2">
-        <p>
-          Masz pytania dotyczące nieruchomości? Skontaktuj się ze mną! Wspólnie
-          zrealizujemy Twoje cele
+        <p className="lg:pr-14">
+          Jeśli masz jakiekolwiek pytania dotyczące kupna, sprzedaży czy wynajmu
+          nieruchomości, jestem tutaj, aby Ci pomóc. Moje doświadczenie i wiedza
+          o rynku nieruchomości pozwolą nam wspólnie znaleźć najlepsze
+          rozwiązania, dostosowane do Twoich potrzeb i oczekiwań.
         </p>
       </div>
       <form className="basis-1/2 lg:px-10">
