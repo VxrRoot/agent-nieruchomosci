@@ -90,7 +90,7 @@ export default function Nav() {
       >
         <motion.a
           // href="https://www.instagram.com/blondynkanakwadracie_/"
-          href="https://www.instagram.com/parzych_nieruchomosci/"
+          href="https://www.instagram.com/agata.waleczek_nieruchomosci/"
           className="items-center gap-12 xl:flex"
           target="_blank"
         >
@@ -108,7 +108,7 @@ export default function Nav() {
           className="w-52 h-auto"
           loading="eager"
         /> */}
-        <span className="text-xl lg:text-2xl">Parzych Nieruchomości</span>
+        <span className="text-xl lg:text-2xl">Agata Waleczek</span>
       </a>
 
       {/* Nav Items animating in  */}
